@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MapsFragment">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORDER"
+        android:layout_centerInParent="true"
+        android:textSize="50sp" />-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/order2"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/circleView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_text"
+        android:id="@+id/textview"
+        android:layout_below="@id/circleView"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/booknow"
+        android:text="Book Now"
+        android:layout_margin="15dp"
+        android:layout_below="@id/textview"
+        />
+</RelativeLayout>

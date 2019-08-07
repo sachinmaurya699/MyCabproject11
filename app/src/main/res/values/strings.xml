@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Woms Carrier</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_text">You have no orders</string>
+</resources>

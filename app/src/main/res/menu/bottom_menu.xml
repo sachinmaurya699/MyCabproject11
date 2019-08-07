@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Book Now"/>
+    <item
+        android:id="@+id/order"
+        android:icon="@drawable/ic_access_time_black_24dp"
+        android:title="Orders"/>
+    <item
+        android:id="@+id/payment"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="Payment"/>
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="Account"/>
+
+
+
+</menu>

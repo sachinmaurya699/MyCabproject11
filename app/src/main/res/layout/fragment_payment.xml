@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:id="@+id/payment"
+        android:textSize="30dp"
+        android:textColor="#292323"
+        android:gravity="top|center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="credits"
+        android:layout_marginTop="10dp"
+        android:id="@+id/credits"
+        android:textSize="20dp"
+        android:layout_below="@id/payment"
+        android:textColor="#292323"
+        android:gravity="top|center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="paytm wallet"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:id="@+id/paytm"
+        android:layout_below="@id/credits"
+        android:textColor="#292323"/>
+       <!-- android:gravity="top|center_horizontal"-->
+
+    <Button
+        android:id="@+id/addmoney"
+        android:layout_width="126dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@id/credits"
+        android:background="#5D73EE"
+        android:text="ADD MONEY" />
+
+    <Button
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/addmoney"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_toRightOf="@id/paytm"
+        android:background="#2DEE35"
+        android:text="Link wallet" />
+
+
+
+</RelativeLayout>

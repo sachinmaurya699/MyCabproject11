@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MapsFragment">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACCOUNT"
+        android:layout_centerInParent="true"
+        android:textSize="50sp" />-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/myimage1"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/circleView"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_margin="15dp"
+        android:layout_below="@id/circleView"
+        android:inputType="textEmailAddress"
+
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_margin="15dp"
+        android:inputType="textPassword"
+        android:layout_below="@id/email"
+        android:hint="password"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_margin="10dp"
+        android:background="#EC8181"
+        android:layout_below="@id/password"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:id="@+id/signup"
+        android:layout_margin="10dp"
+        android:background="#EC8181"
+        android:layout_below="@id/login"
+        />
+
+
+
+
+</RelativeLayout>
